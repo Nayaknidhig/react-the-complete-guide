@@ -3,7 +3,7 @@ import { expenses } from "../App";
 
 function ExpenseItemList() {
   return (
-    <div>
+    <div className="expenses">
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
